@@ -1,4 +1,4 @@
-# FlowSync — Escalation Rules
+# TaskVault — Escalation Rules
 
 This document defines when and how customer support tickets should be escalated from the AI agent to a human support team member.
 
@@ -44,7 +44,7 @@ If ANY of the following keywords or phrases appear in a customer message (case-i
 - Profanity or hostile language
 - Phrases like "this is unacceptable", "worst experience", "terrible service"
 - Repeated contacts about the same issue (3+ times)
-- Explicit threat to leave ("I'm done with FlowSync", "cancelling today")
+- Explicit threat to leave ("I'm done with TaskVault", "cancelling today")
 
 ### Positive Escalation (Route to Account Manager, not Support)
 - Enterprise customer expressing strong satisfaction — route to account manager for upsell opportunity
@@ -148,16 +148,16 @@ Full Conversation: [attached]
 
 | Escalation Type | Routed To | Contact Method |
 |---|---|---|
-| Billing / Refund | billing-team@flowsync.io | Email + Slack #billing-escalations |
-| Sales / Pricing | sales-team@flowsync.io | Email + Slack #sales-inbound |
-| Security Incident | security@flowsync.io | Email + PagerDuty alert |
-| Data Loss / Outage | oncall@flowsync.io | PagerDuty (immediate) |
-| Legal / Compliance | legal@flowsync.io | Email (encrypted) |
-| Churn / Cancellation | retention@flowsync.io | Email + Slack #retention-alerts |
-| Enterprise Support | enterprise-support@flowsync.io | Email + Dedicated Slack channel |
-| Product Feedback | product-feedback@flowsync.io | Email (batched weekly) |
-| Bug Reports | engineering-triage@flowsync.io | Email + Jira ticket auto-created |
-| General (unresolved) | support-leads@flowsync.io | Email + Slack #support-escalations |
+| Billing / Refund | billing-team@taskvault.io | Email + Slack #billing-escalations |
+| Sales / Pricing | sales-team@taskvault.io | Email + Slack #sales-inbound |
+| Security Incident | security@taskvault.io | Email + PagerDuty alert |
+| Data Loss / Outage | oncall@taskvault.io | PagerDuty (immediate) |
+| Legal / Compliance | legal@taskvault.io | Email (encrypted) |
+| Churn / Cancellation | retention@taskvault.io | Email + Slack #retention-alerts |
+| Enterprise Support | enterprise-support@taskvault.io | Email + Dedicated Slack channel |
+| Product Feedback | product-feedback@taskvault.io | Email (batched weekly) |
+| Bug Reports | engineering-triage@taskvault.io | Email + Jira ticket auto-created |
+| General (unresolved) | support-leads@taskvault.io | Email + Slack #support-escalations |
 
 ---
 

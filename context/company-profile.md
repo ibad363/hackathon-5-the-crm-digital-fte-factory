@@ -1,20 +1,20 @@
-# FlowSync — Company Profile
+# TaskVault — Company Profile
 
 ## Company Overview
 
-- **Company Name:** FlowSync, Inc.
+- **Company Name:** TaskVault, Inc.
 - **Founded:** 2019, San Francisco, CA
 - **Founders:** Arjun Mehta (CEO) & Lisa Chen (CTO)
 - **Mission:** To make team collaboration effortless so that teams of any size can ship great work faster.
-- **Tagline:** "Work flows when teams sync."
-- **Website:** https://www.flowsync.io
-- **Support Email:** support@flowsync.io
+- **Tagline:** "Where work gets organized, tracked, and delivered."
+- **Website:** https://www.taskvault.io
+- **Support Email:** support@taskvault.io
 
 ---
 
 ## Product Overview
 
-FlowSync is a cloud-based **project management and team collaboration platform** built for modern software and product teams. It combines task management, real-time messaging, file sharing, and workflow automation into a single workspace.
+TaskVault is a cloud-based **project management and team collaboration platform** built for modern software and product teams. It combines task management, real-time messaging, file sharing, and workflow automation into a single workspace.
 
 ### Core Capabilities
 

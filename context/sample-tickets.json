@@ -8,10 +8,10 @@
     "subject": "Unable to log in to my account for the past 2 days",
     "category": "technical",
     "priority": "high",
-    "message": "Hi FlowSync Support,\n\nI've been trying to log in to my FlowSync account since Monday morning but keep getting a \"Invalid credentials\" error. I've tried resetting my password twice using the Forgot Password link, but the reset emails never arrive. I've checked my spam folder and there's nothing there either.\n\nThis is really impacting our team's productivity — we have a major sprint review on Wednesday and I can't access any of our project boards. I'm the project lead and my team is stuck without me being able to assign and review tasks.\n\nMy account email is marcus.johnson@techcorp.io. We're on the Pro plan.\n\nPlease help ASAP.\n\nThanks,\nMarcus",
+    "message": "Hi TaskVault Support,\n\nI've been trying to log in to my TaskVault account since Monday morning but keep getting a \"Invalid credentials\" error. I've tried resetting my password twice using the Forgot Password link, but the reset emails never arrive. I've checked my spam folder and there's nothing there either.\n\nThis is really impacting our team's productivity — we have a major sprint review on Wednesday and I can't access any of our project boards. I'm the project lead and my team is stuck without me being able to assign and review tasks.\n\nMy account email is marcus.johnson@techcorp.io. We're on the Pro plan.\n\nPlease help ASAP.\n\nThanks,\nMarcus",
     "expected_action": "resolve",
     "escalation_reason": null,
-    "notes": "Check if email is verified. May need to check spam filter settings for flowsync.io domain. Standard password reset troubleshooting."
+    "notes": "Check if email is verified. May need to check spam filter settings for taskvault.io domain. Standard password reset troubleshooting."
   },
   {
     "id": "ticket_002",
@@ -36,7 +36,7 @@
     "subject": "URGENT: All task data missing from our workspace",
     "category": "bug_report",
     "priority": "high",
-    "message": "Support Team,\n\nThis is critical. I logged into our FlowSync workspace this morning and ALL of our tasks across every project appear to be gone. We had over 3,000 active tasks and they've all vanished. The projects still exist but they're completely empty.\n\nWe're an Enterprise customer and this data is essential to our operations. Nobody on our team deleted anything — I've checked with all admins.\n\nI need someone to look into this immediately. If our data can't be recovered, we will need to reconsider our relationship with FlowSync.\n\nDavid Park\nVP of Operations, Nova Finance\nEnterprise Plan - Account #ENT-4421",
+    "message": "Support Team,\n\nThis is critical. I logged into our TaskVault workspace this morning and ALL of our tasks across every project appear to be gone. We had over 3,000 active tasks and they've all vanished. The projects still exist but they're completely empty.\n\nWe're an Enterprise customer and this data is essential to our operations. Nobody on our team deleted anything — I've checked with all admins.\n\nI need someone to look into this immediately. If our data can't be recovered, we will need to reconsider our relationship with TaskVault.\n\nDavid Park\nVP of Operations, Nova Finance\nEnterprise Plan - Account #ENT-4421",
     "expected_action": "escalate",
     "escalation_reason": "Potential data loss for Enterprise customer. This is a critical severity issue that requires immediate engineering investigation. Customer is also expressing churn risk.",
     "notes": "Enterprise customer. Data loss claim. Check if tasks are archived, not deleted. Escalate to Engineering On-Call + Account Manager."
@@ -50,10 +50,10 @@
     "subject": "Slack integration stopped working after Slack workspace migration",
     "category": "technical",
     "priority": "medium",
-    "message": "Hi there,\n\nWe recently migrated to a new Slack workspace (from our old company Slack to a new one) and now the FlowSync-Slack integration has completely stopped working. No task notifications are posting to our channels anymore.\n\nI tried going to Settings > Integrations > Slack but it still shows the old workspace connection. When I click Reconnect, nothing happens — the OAuth popup appears briefly and then closes.\n\nWe're on Pro plan. This is affecting our entire team's workflow since we rely heavily on Slack notifications for task updates.\n\nCan you help us reconnect to our new Slack workspace?\n\nBest,\nPriya Sharma",
+    "message": "Hi there,\n\nWe recently migrated to a new Slack workspace (from our old company Slack to a new one) and now the TaskVault-Slack integration has completely stopped working. No task notifications are posting to our channels anymore.\n\nI tried going to Settings > Integrations > Slack but it still shows the old workspace connection. When I click Reconnect, nothing happens — the OAuth popup appears briefly and then closes.\n\nWe're on Pro plan. This is affecting our entire team's workflow since we rely heavily on Slack notifications for task updates.\n\nCan you help us reconnect to our new Slack workspace?\n\nBest,\nPriya Sharma",
     "expected_action": "resolve",
     "escalation_reason": null,
-    "notes": "Known workflow: disconnect old Slack integration first, then reconnect to new workspace. May need to revoke FlowSync app in old Slack workspace settings."
+    "notes": "Known workflow: disconnect old Slack integration first, then reconnect to new workspace. May need to revoke TaskVault app in old Slack workspace settings."
   },
   {
     "id": "ticket_005",
@@ -64,7 +64,7 @@
     "subject": "I want a full refund - service has been terrible",
     "category": "billing",
     "priority": "high",
-    "message": "To Whom It May Concern,\n\nI signed up for the Pro plan 10 days ago and the experience has been nothing short of disappointing. The Gantt chart feature doesn't work properly — tasks overlap, dependencies break randomly, and the interface is sluggish.\n\nI've spent hours trying to make this work for my team and it's clear that FlowSync is not ready for professional use. I want a full refund of the $29/user charge for our team of 8 ($232 total).\n\nIf this isn't resolved promptly, I will be filing a chargeback with my credit card company and leaving reviews on G2 and Capterra to warn other teams.\n\nRobert Williams\nLegal Solutions Inc.",
+    "message": "To Whom It May Concern,\n\nI signed up for the Pro plan 10 days ago and the experience has been nothing short of disappointing. The Gantt chart feature doesn't work properly — tasks overlap, dependencies break randomly, and the interface is sluggish.\n\nI've spent hours trying to make this work for my team and it's clear that TaskVault is not ready for professional use. I want a full refund of the $29/user charge for our team of 8 ($232 total).\n\nIf this isn't resolved promptly, I will be filing a chargeback with my credit card company and leaving reviews on G2 and Capterra to warn other teams.\n\nRobert Williams\nLegal Solutions Inc.",
     "expected_action": "escalate",
     "escalation_reason": "Refund request. Customer is within 14-day money-back guarantee window (signed up 10 days ago). Also threatening chargeback. Route to Billing Team.",
     "notes": "Within refund window. Refund is likely justified. Escalate to Billing Team. Also note the product feedback about Gantt chart bugs."
@@ -78,7 +78,7 @@
     "subject": "Can we get a custom enterprise plan for 150+ users?",
     "category": "billing",
     "priority": "medium",
-    "message": "Hi FlowSync Team,\n\nWe're a creative agency with about 150 team members and we're currently evaluating project management tools. We've been using the free trial and love the product, but the Enterprise pricing at $99/user/month would be over $14,000/month for our team.\n\nIs there any flexibility on pricing for larger teams? We'd also need:\n- SSO with Azure AD\n- Custom onboarding for our team\n- A dedicated account manager\n- Priority support\n\nWould love to set up a call with your sales team to discuss options.\n\nBest regards,\nEmily Torres\nHead of Operations, Creative Agency",
+    "message": "Hi TaskVault Team,\n\nWe're a creative agency with about 150 team members and we're currently evaluating project management tools. We've been using the free trial and love the product, but the Enterprise pricing at $99/user/month would be over $14,000/month for our team.\n\nIs there any flexibility on pricing for larger teams? We'd also need:\n- SSO with Azure AD\n- Custom onboarding for our team\n- A dedicated account manager\n- Priority support\n\nWould love to set up a call with your sales team to discuss options.\n\nBest regards,\nEmily Torres\nHead of Operations, Creative Agency",
     "expected_action": "escalate",
     "escalation_reason": "Enterprise pricing negotiation request. This is a sales opportunity for a 150+ user deal. Route to Sales Team.",
     "notes": "High-value prospect. Route to Sales Team immediately. Do not quote custom pricing — that's for Sales to handle."
@@ -92,7 +92,7 @@
     "subject": "How to set up recurring tasks?",
     "category": "general",
     "priority": "low",
-    "message": "Hey,\n\nQuick question — is there a way to create recurring tasks in FlowSync? We have a weekly standup prep task that I have to manually recreate every Monday. Would love to automate this.\n\nIf it exists, can you show me how to set it up?\n\nThanks!\nJames",
+    "message": "Hey,\n\nQuick question — is there a way to create recurring tasks in TaskVault? We have a weekly standup prep task that I have to manually recreate every Monday. Would love to automate this.\n\nIf it exists, can you show me how to set it up?\n\nThanks!\nJames",
     "expected_action": "resolve",
     "escalation_reason": null,
     "notes": "Simple how-to. Recurring tasks are available. Guide: Open task > click three-dot menu > Set Recurring > choose frequency."
@@ -106,10 +106,10 @@
     "subject": "GDPR data deletion request",
     "category": "general",
     "priority": "high",
-    "message": "Dear FlowSync,\n\nUnder Article 17 of the General Data Protection Regulation (GDPR), I am formally requesting the complete deletion of all personal data associated with my account (aisha@healthtech.io) and our workspace (HealthTech Solutions).\n\nPlease confirm the following:\n1. What personal data you hold about me\n2. Timeline for deletion\n3. Confirmation once deletion is complete\n\nI expect a response within the 30-day period required by law.\n\nRegards,\nAisha Mohammed",
+    "message": "Dear TaskVault,\n\nUnder Article 17 of the General Data Protection Regulation (GDPR), I am formally requesting the complete deletion of all personal data associated with my account (aisha@healthtech.io) and our workspace (HealthTech Solutions).\n\nPlease confirm the following:\n1. What personal data you hold about me\n2. Timeline for deletion\n3. Confirmation once deletion is complete\n\nI expect a response within the 30-day period required by law.\n\nRegards,\nAisha Mohammed",
     "expected_action": "escalate",
     "escalation_reason": "GDPR data deletion request. Legal compliance matter. Route to Legal/Privacy Team.",
-    "notes": "Formal GDPR request. Must escalate to legal@flowsync.io. Do NOT process deletion — let the privacy team handle per protocol."
+    "notes": "Formal GDPR request. Must escalate to legal@taskvault.io. Do NOT process deletion — let the privacy team handle per protocol."
   },
   {
     "id": "ticket_009",
@@ -134,7 +134,7 @@
     "subject": "Automations not triggering on task status change",
     "category": "bug_report",
     "priority": "medium",
-    "message": "Hello FlowSync Support,\n\nI set up an automation rule in our \"Product Launch\" project that should send a Slack notification to #launches whenever a task's status changes to \"Done.\" But it hasn't fired once, even though we've moved over 20 tasks to Done this week.\n\nHere's what I've checked:\n- The automation rule is toggled ON\n- The Slack integration is connected and working (manual test notifications go through)\n- We're on the Pro plan\n\nIs there something I'm missing, or is this a bug?\n\nThanks,\nNatalie Kim",
+    "message": "Hello TaskVault Support,\n\nI set up an automation rule in our \"Product Launch\" project that should send a Slack notification to #launches whenever a task's status changes to \"Done.\" But it hasn't fired once, even though we've moved over 20 tasks to Done this week.\n\nHere's what I've checked:\n- The automation rule is toggled ON\n- The Slack integration is connected and working (manual test notifications go through)\n- We're on the Pro plan\n\nIs there something I'm missing, or is this a bug?\n\nThanks,\nNatalie Kim",
     "expected_action": "resolve",
     "escalation_reason": null,
     "notes": "Check if the automation trigger matches exactly. Common issue: automation may be set to trigger on a custom status that's named differently. Also check if there's a 1-2 minute delay."
@@ -148,10 +148,10 @@
     "subject": "Need help connecting GitHub integration",
     "category": "technical",
     "priority": "medium",
-    "message": "Hi,\n\nI'm trying to connect our GitHub organization to FlowSync but the authorization step keeps failing. I click \"Connect to GitHub,\" the GitHub OAuth page loads, I approve it, and then I get redirected back to FlowSync with an error that says \"Authorization failed. Please try again.\"\n\nI've tried in Chrome and Firefox, with extensions disabled. Same result both times.\n\nWe're on Pro plan. Our GitHub org is \"buildright-eng.\"\n\nAny ideas?\n\nCarlos",
+    "message": "Hi,\n\nI'm trying to connect our GitHub organization to TaskVault but the authorization step keeps failing. I click \"Connect to GitHub,\" the GitHub OAuth page loads, I approve it, and then I get redirected back to TaskVault with an error that says \"Authorization failed. Please try again.\"\n\nI've tried in Chrome and Firefox, with extensions disabled. Same result both times.\n\nWe're on Pro plan. Our GitHub org is \"buildright-eng.\"\n\nAny ideas?\n\nCarlos",
     "expected_action": "resolve",
     "escalation_reason": null,
-    "notes": "Common OAuth issue. Check if the user has admin permissions on the GitHub org. GitHub org owners must approve the FlowSync OAuth app in GitHub org settings."
+    "notes": "Common OAuth issue. Check if the user has admin permissions on the GitHub org. GitHub org owners must approve the TaskVault OAuth app in GitHub org settings."
   },
   {
     "id": "ticket_012",
@@ -176,7 +176,7 @@
     "subject": "API rate limit too low for our use case",
     "category": "technical",
     "priority": "medium",
-    "message": "Hello,\n\nWe're building a custom dashboard that pulls data from FlowSync via your API. The Pro plan's rate limit of 60 requests per minute is not enough for our needs — we have 15 projects and need to sync task data every 2 minutes.\n\nIs there any way to increase our rate limit without upgrading to Enterprise? The Enterprise plan at $99/user would be a big jump for our 8-person team.\n\nAlternatively, do you support webhooks that push data to us so we don't need to poll?\n\nThanks,\nAlex Petrov\nCTO, DataStream",
+    "message": "Hello,\n\nWe're building a custom dashboard that pulls data from TaskVault via your API. The Pro plan's rate limit of 60 requests per minute is not enough for our needs — we have 15 projects and need to sync task data every 2 minutes.\n\nIs there any way to increase our rate limit without upgrading to Enterprise? The Enterprise plan at $99/user would be a big jump for our 8-person team.\n\nAlternatively, do you support webhooks that push data to us so we don't need to poll?\n\nThanks,\nAlex Petrov\nCTO, DataStream",
     "expected_action": "resolve",
     "escalation_reason": null,
     "notes": "Suggest webhooks as the alternative to polling (available on Pro). If they need higher rate limits, only option is Enterprise — but don't push the upgrade, just inform."
@@ -201,10 +201,10 @@
     "customer_name": "Michael Torres",
     "customer_email": "mike.torres@swiftcode.dev",
     "customer_phone": null,
-    "subject": "I will sue FlowSync if my data is not recovered",
+    "subject": "I will sue TaskVault if my data is not recovered",
     "category": "technical",
     "priority": "high",
-    "message": "This is my THIRD email about this issue and nobody has responded.\n\nI deleted my workspace by accident 25 days ago and I need the data recovered. I was told there's a 30-day recovery window but nobody is helping me. My workspace name was \"SwiftCode Engineering\" and my account is mike.torres@swiftcode.dev.\n\nIf my data is not recovered in the next 5 days before the window closes, I will be pursuing legal action against FlowSync for negligence. This data represents 2 years of project history for my company.\n\nMichael Torres\nFounder, SwiftCode",
+    "message": "This is my THIRD email about this issue and nobody has responded.\n\nI deleted my workspace by accident 25 days ago and I need the data recovered. I was told there's a 30-day recovery window but nobody is helping me. My workspace name was \"SwiftCode Engineering\" and my account is mike.torres@swiftcode.dev.\n\nIf my data is not recovered in the next 5 days before the window closes, I will be pursuing legal action against TaskVault for negligence. This data represents 2 years of project history for my company.\n\nMichael Torres\nFounder, SwiftCode",
     "expected_action": "escalate",
     "escalation_reason": "Legal threat + data recovery request approaching 30-day deletion window. Third contact with no prior response (SLA breach). Escalate to Support Lead + Legal Team.",
     "notes": "URGENT. Legal threat. SLA breach (no response to previous contacts). Time-sensitive data recovery. Needs immediate escalation."
@@ -232,10 +232,10 @@
     "subject": "Frage: Kann man die Sprache auf Deutsch umstellen?",
     "category": "general",
     "priority": "low",
-    "message": "Hello,\n\nI'm writing from Germany and my team would prefer to use FlowSync in German. Is there a way to change the interface language to Deutsch? I looked in Settings but could only find English.\n\nAlso, are your product docs available in German?\n\nDanke sehr,\nDaniel Schmidt",
+    "message": "Hello,\n\nI'm writing from Germany and my team would prefer to use TaskVault in German. Is there a way to change the interface language to Deutsch? I looked in Settings but could only find English.\n\nAlso, are your product docs available in German?\n\nDanke sehr,\nDaniel Schmidt",
     "expected_action": "resolve",
     "escalation_reason": null,
-    "notes": "FlowSync currently only supports English. Acknowledge the request, log as feature feedback. Be polite about the limitation."
+    "notes": "TaskVault currently only supports English. Acknowledge the request, log as feature feedback. Be polite about the limitation."
   },
   {
     "id": "ticket_018",
@@ -257,10 +257,10 @@
     "customer_name": "Kevin Hughes",
     "customer_email": "kevin@productiveteam.com",
     "customer_phone": null,
-    "subject": "Love FlowSync — quick feature suggestion",
+    "subject": "Love TaskVault — quick feature suggestion",
     "category": "feedback",
     "priority": "low",
-    "message": "Hey FlowSync Team!\n\nJust wanted to say that our team absolutely LOVES FlowSync. We switched from Asana 3 months ago and the experience has been amazing. The Kanban boards are intuitive and the Slack integration saves us so much time.\n\nOne small suggestion: it would be awesome if we could add custom fields to tasks (like a \"Story Points\" field for our sprints). Is that something on the roadmap?\n\nKeep up the great work!\nKevin Hughes",
+    "message": "Hey TaskVault Team!\n\nJust wanted to say that our team absolutely LOVES TaskVault. We switched from Asana 3 months ago and the experience has been amazing. The Kanban boards are intuitive and the Slack integration saves us so much time.\n\nOne small suggestion: it would be awesome if we could add custom fields to tasks (like a \"Story Points\" field for our sprints). Is that something on the roadmap?\n\nKeep up the great work!\nKevin Hughes",
     "expected_action": "resolve",
     "escalation_reason": null,
     "notes": "Positive feedback + feature request. Thank the customer warmly. Log the feature request. Don't promise it's on the roadmap."
@@ -274,7 +274,7 @@
     "subject": "Charged twice for this month — need immediate resolution",
     "category": "billing",
     "priority": "high",
-    "message": "Hello,\n\nI just checked my credit card statement and I was charged TWICE for FlowSync Pro this month:\n- March 1: $232.00 (8 users x $29)\n- March 3: $232.00 (8 users x $29)\n\nThis is clearly an error. I need the duplicate charge reversed immediately. If this isn't resolved within 48 hours, I will be filing a chargeback dispute with my bank.\n\nInvoice numbers: INV-2026-03-001 and INV-2026-03-003\n\nRachel Adams\nConsulting Pro LLC",
+    "message": "Hello,\n\nI just checked my credit card statement and I was charged TWICE for TaskVault Pro this month:\n- March 1: $232.00 (8 users x $29)\n- March 3: $232.00 (8 users x $29)\n\nThis is clearly an error. I need the duplicate charge reversed immediately. If this isn't resolved within 48 hours, I will be filing a chargeback dispute with my bank.\n\nInvoice numbers: INV-2026-03-001 and INV-2026-03-003\n\nRachel Adams\nConsulting Pro LLC",
     "expected_action": "escalate",
     "escalation_reason": "Duplicate charge / billing error. Customer threatening chargeback. Route to Billing Team immediately.",
     "notes": "Double charge. Needs Billing Team to verify and process refund for duplicate. Time-sensitive due to chargeback threat."
@@ -344,7 +344,7 @@
     "subject": null,
     "category": "technical",
     "priority": "low",
-    "message": "yo does flowsync have dark mode?",
+    "message": "yo does taskvault have dark mode?",
     "expected_action": "resolve",
     "escalation_reason": null,
     "notes": "Quick answer. Dark mode is available on the mobile app. Not yet available on web."
@@ -361,7 +361,7 @@
     "message": "HELP!! our whole team is getting 500 errors when trying to open any project. been like this for 30 min. 15 people cant work right now!!",
     "expected_action": "escalate",
     "escalation_reason": "Possible outage affecting entire team. 500 errors suggest server-side issue. Escalate to Engineering On-Call.",
-    "notes": "Check status.flowsync.io first. If no known incident, this needs immediate engineering escalation."
+    "notes": "Check status.taskvault.io first. If no known incident, this needs immediate engineering escalation."
   },
   {
     "id": "ticket_027",
@@ -428,7 +428,7 @@
     "subject": null,
     "category": "general",
     "priority": "low",
-    "message": "hi! just wanted to say flowsync is amazing 🎉 we switched from trello last month and the team loves it. keep it up!",
+    "message": "hi! just wanted to say taskvault is amazing 🎉 we switched from trello last month and the team loves it. keep it up!",
     "expected_action": "resolve",
     "escalation_reason": null,
     "notes": "Positive feedback / compliment. Thank them warmly. Log the feedback. Forward to #customer-love."
@@ -470,7 +470,7 @@
     "subject": null,
     "category": "general",
     "priority": "low",
-    "message": "can I use flowsync offline? like when im on a plane?",
+    "message": "can I use taskvault offline? like when im on a plane?",
     "expected_action": "resolve",
     "escalation_reason": null,
     "notes": "Offline mode is available on Pro+ for mobile. Tasks created offline sync when reconnected. Web app requires internet."
@@ -582,7 +582,7 @@
     "subject": "API returns 401 even with valid key",
     "category": "technical",
     "priority": "medium",
-    "message": "I generated an API key from Settings > API and I'm using it in my requests, but I keep getting 401 Unauthorized responses. My request looks like this:\n\ncurl -H \"Authorization: Bearer fs_live_abc123def456\" https://api.flowsync.io/v1/tasks\n\nI've double-checked the key and it matches what's in my settings. We're on the Pro plan. Any idea what's wrong?",
+    "message": "I generated an API key from Settings > API and I'm using it in my requests, but I keep getting 401 Unauthorized responses. My request looks like this:\n\ncurl -H \"Authorization: Bearer fs_live_abc123def456\" https://api.taskvault.io/v1/tasks\n\nI've double-checked the key and it matches what's in my settings. We're on the Pro plan. Any idea what's wrong?",
     "expected_action": "resolve",
     "escalation_reason": null,
     "notes": "Standard API troubleshooting. Check: is the key correct? Has it been revoked? Is the workspace ID correct? Is there a whitespace issue in the header?"
@@ -610,7 +610,7 @@
     "subject": "Feature Request: Time tracking reports by team member",
     "category": "feedback",
     "priority": "low",
-    "message": "We use FlowSync's time tracking feature extensively and love it. However, the current reporting only shows time per task. It would be incredibly useful to have a report that breaks down time tracked by team member across all projects for a given date range. This would help us with resource planning and client billing. Is this something that's planned?",
+    "message": "We use TaskVault's time tracking feature extensively and love it. However, the current reporting only shows time per task. It would be incredibly useful to have a report that breaks down time tracked by team member across all projects for a given date range. This would help us with resource planning and client billing. Is this something that's planned?",
     "expected_action": "resolve",
     "escalation_reason": null,
     "notes": "Feature request. Time tracking reports currently show per-task data. Log the request, acknowledge, don't promise anything about the roadmap."
@@ -627,7 +627,7 @@
     "message": "Hi, I need to download invoices for the last 6 months for our tax filing. I went to Settings > Billing but I only see the last 2 invoices. Where can I find older ones? Also, can I get the invoices with our company tax ID included? Company: Peak Performance LLC, Tax ID: 84-1234567.",
     "expected_action": "resolve",
     "escalation_reason": null,
-    "notes": "Guide to Settings > Billing > Billing History for past invoices. If only 2 are showing, older ones may need to be requested from billing support. Adding tax ID to invoices may require contacting billing@flowsync.io."
+    "notes": "Guide to Settings > Billing > Billing History for past invoices. If only 2 are showing, older ones may need to be requested from billing support. Adding tax ID to invoices may require contacting billing@taskvault.io."
   },
   {
     "id": "ticket_046",
@@ -638,7 +638,7 @@
     "subject": "Security: Configure SSO with Okta",
     "category": "technical",
     "priority": "medium",
-    "message": "We recently upgraded to Enterprise and need to set up SSO using Okta for our organization. I've found the SSO settings page but the configuration is complex and our IT team needs guidance. Specifically:\n\n1. What's the FlowSync SAML entity ID?\n2. What's the ACS (Assertion Consumer Service) URL?\n3. Do you support SCIM provisioning with Okta?\n4. Can we enforce SSO so that password login is disabled?\n\nA setup guide would be very helpful.",
+    "message": "We recently upgraded to Enterprise and need to set up SSO using Okta for our organization. I've found the SSO settings page but the configuration is complex and our IT team needs guidance. Specifically:\n\n1. What's the TaskVault SAML entity ID?\n2. What's the ACS (Assertion Consumer Service) URL?\n3. Do you support SCIM provisioning with Okta?\n4. Can we enforce SSO so that password login is disabled?\n\nA setup guide would be very helpful.",
     "expected_action": "resolve",
     "escalation_reason": null,
     "notes": "Enterprise SSO setup question. Provide the standard SSO configuration details. SCIM is supported. SSO enforcement is available. If customer needs hands-on help, route to Enterprise Support."
@@ -655,7 +655,7 @@
     "message": "Our workspace has become unbearably slow over the past week. Projects take 30+ seconds to load and sometimes time out entirely. We have about 8,000 tasks across 20 projects. This is severely impacting our team's productivity (25 users).\n\nWe're on Pro plan. Our internet connection is fine (tested with other apps). The issue is consistent across different browsers and computers for all team members.\n\nIs there a known issue, or is our workspace just too large for the Pro plan?",
     "expected_action": "resolve",
     "escalation_reason": null,
-    "notes": "Large workspace with 8,000 tasks. Suggest archiving completed tasks to reduce load. Check status.flowsync.io for incidents. If issue persists after archiving, escalate to Engineering."
+    "notes": "Large workspace with 8,000 tasks. Suggest archiving completed tasks to reduce load. Check status.taskvault.io for incidents. If issue persists after archiving, escalate to Engineering."
   },
   {
     "id": "ticket_048",
@@ -680,7 +680,7 @@
     "subject": "How to set up Google Drive integration",
     "category": "general",
     "priority": "low",
-    "message": "Hi! I'm trying to connect Google Drive to our FlowSync workspace so we can attach files from Drive directly to tasks. I went to Settings > Integrations but I'm not sure which Google account to use (I have a personal and a work account). A few questions:\n\n1. Does it connect to my personal Drive or our Google Workspace drive?\n2. Can multiple team members connect their own Drive accounts?\n3. Will other team members be able to see files I attach from my Drive?",
+    "message": "Hi! I'm trying to connect Google Drive to our TaskVault workspace so we can attach files from Drive directly to tasks. I went to Settings > Integrations but I'm not sure which Google account to use (I have a personal and a work account). A few questions:\n\n1. Does it connect to my personal Drive or our Google Workspace drive?\n2. Can multiple team members connect their own Drive accounts?\n3. Will other team members be able to see files I attach from my Drive?",
     "expected_action": "resolve",
     "escalation_reason": null,
     "notes": "Standard integration setup question. Google Drive connects to whichever account you authenticate with. Each member can connect their own. Files attached are accessible to project members."
@@ -694,7 +694,7 @@
     "subject": "Request to delete my account and all data",
     "category": "general",
     "priority": "medium",
-    "message": "I'd like to delete my personal account (brian@legacysystems.com) and have all my data permanently removed from FlowSync's systems. I'm no longer using the service. Please confirm:\n\n1. That all my personal data will be deleted\n2. The timeline for deletion\n3. That this action is irreversible\n\nThank you.",
+    "message": "I'd like to delete my personal account (brian@legacysystems.com) and have all my data permanently removed from TaskVault's systems. I'm no longer using the service. Please confirm:\n\n1. That all my personal data will be deleted\n2. The timeline for deletion\n3. That this action is irreversible\n\nThank you.",
     "expected_action": "resolve",
     "escalation_reason": null,
     "notes": "Account deletion request (not GDPR — just a standard deletion). Guide to Settings > Profile > Delete Account. Personal data deleted within 30 days. Tasks remain in workspace but are disassociated."
@@ -708,10 +708,10 @@
     "subject": "Notification emails going to spam",
     "category": "technical",
     "priority": "medium",
-    "message": "I've been missing important task notifications because FlowSync emails keep landing in my spam folder (Gmail). I've marked them as 'Not Spam' multiple times but they keep going back. Is there a way to fix this permanently? Our whole team is having the same issue.",
+    "message": "I've been missing important task notifications because TaskVault emails keep landing in my spam folder (Gmail). I've marked them as 'Not Spam' multiple times but they keep going back. Is there a way to fix this permanently? Our whole team is having the same issue.",
     "expected_action": "resolve",
     "escalation_reason": null,
-    "notes": "Common email deliverability issue. Guide: add notifications@flowsync.io to contacts/safe senders. Create a Gmail filter to never send FlowSync emails to spam. Check if company email admin has whitelisted flowsync.io."
+    "notes": "Common email deliverability issue. Guide: add notifications@taskvault.io to contacts/safe senders. Create a Gmail filter to never send TaskVault emails to spam. Check if company email admin has whitelisted taskvault.io."
   },
   {
     "id": "ticket_052",
@@ -733,13 +733,13 @@
     "customer_name": "Tanya Petrova",
     "customer_email": "tanya@globalreach.io",
     "customer_phone": null,
-    "subject": "Can we use FlowSync for client-facing project sharing?",
+    "subject": "Can we use TaskVault for client-facing project sharing?",
     "category": "general",
     "priority": "low",
-    "message": "We're an agency and we'd like to give our clients read-only access to their project boards so they can track progress without us having to send manual updates. Is there a way to do this? Ideally, clients wouldn't need to create a FlowSync account.\n\nIf not, is there a public board or shareable link feature?",
+    "message": "We're an agency and we'd like to give our clients read-only access to their project boards so they can track progress without us having to send manual updates. Is there a way to do this? Ideally, clients wouldn't need to create a TaskVault account.\n\nIf not, is there a public board or shareable link feature?",
     "expected_action": "resolve",
     "escalation_reason": null,
-    "notes": "Guest role (Pro+) allows view-only access to specific projects. However, guests do need a FlowSync account. There's no public board or anonymous link feature currently. Log as feedback if they want anonymous sharing."
+    "notes": "Guest role (Pro+) allows view-only access to specific projects. However, guests do need a TaskVault account. There's no public board or anonymous link feature currently. Log as feedback if they want anonymous sharing."
   },
   {
     "id": "ticket_054",
@@ -750,7 +750,7 @@
     "subject": "Webhook payloads not being received",
     "category": "technical",
     "priority": "medium",
-    "message": "I registered a webhook endpoint (https://hooks.devhorizon.com/flowsync) via the API, and the registration returned 201 Created. However, when task events occur (create, update, status change), my endpoint receives nothing. No requests hit my server at all.\n\nI verified my endpoint is accessible from the internet (tested with curl from an external server). The webhook is registered for the 'task.created' and 'task.updated' events.\n\nAny troubleshooting steps I can try?",
+    "message": "I registered a webhook endpoint (https://hooks.devhorizon.com/taskvault) via the API, and the registration returned 201 Created. However, when task events occur (create, update, status change), my endpoint receives nothing. No requests hit my server at all.\n\nI verified my endpoint is accessible from the internet (tested with curl from an external server). The webhook is registered for the 'task.created' and 'task.updated' events.\n\nAny troubleshooting steps I can try?",
     "expected_action": "resolve",
     "escalation_reason": null,
     "notes": "Webhook troubleshooting. Check: is the webhook active (not paused)? Is the endpoint HTTPS? Does it return 200 within 5 seconds? Check webhook delivery logs in Settings > API > Webhooks."
@@ -778,7 +778,7 @@
     "subject": "Compliance: Need audit log of all user actions",
     "category": "general",
     "priority": "medium",
-    "message": "Our compliance team requires a detailed audit log of all user actions in our FlowSync workspace for the past 6 months. This includes: logins, task creations/edits/deletions, member changes, and setting modifications.\n\nWe're on the Pro plan. Is this available, or do we need to upgrade to Enterprise? If Enterprise, can we get a trial of the audit log feature before committing?",
+    "message": "Our compliance team requires a detailed audit log of all user actions in our TaskVault workspace for the past 6 months. This includes: logins, task creations/edits/deletions, member changes, and setting modifications.\n\nWe're on the Pro plan. Is this available, or do we need to upgrade to Enterprise? If Enterprise, can we get a trial of the audit log feature before committing?",
     "expected_action": "resolve",
     "escalation_reason": null,
     "notes": "Audit logs are Enterprise-only. Inform the customer. If they want a trial of Enterprise features, that's a Sales conversation — but don't escalate unless they explicitly ask to talk to sales."
@@ -789,13 +789,13 @@
     "customer_name": "Ashley Morgan",
     "customer_email": "ashley@wellnessco.com",
     "customer_phone": null,
-    "subject": "Integrations - Can FlowSync connect to Zapier?",
+    "subject": "Integrations - Can TaskVault connect to Zapier?",
     "category": "general",
     "priority": "low",
-    "message": "We use a lot of different tools (Mailchimp, HubSpot, Notion) and I'm wondering if FlowSync integrates with Zapier. If so, what triggers and actions are available? We'd specifically want to:\n\n1. Create a FlowSync task when a new HubSpot deal is created\n2. Send a Mailchimp email when a task is completed\n3. Sync tasks with Notion databases\n\nIs any of this possible?",
+    "message": "We use a lot of different tools (Mailchimp, HubSpot, Notion) and I'm wondering if TaskVault integrates with Zapier. If so, what triggers and actions are available? We'd specifically want to:\n\n1. Create a TaskVault task when a new HubSpot deal is created\n2. Send a Mailchimp email when a task is completed\n3. Sync tasks with Notion databases\n\nIs any of this possible?",
     "expected_action": "resolve",
     "escalation_reason": null,
-    "notes": "Yes, FlowSync integrates with Zapier on Pro+. Available triggers: task created, task updated, task completed, task assigned. Actions: create task, update task. Explain how Zapier works with FlowSync."
+    "notes": "Yes, TaskVault integrates with Zapier on Pro+. Available triggers: task created, task updated, task completed, task assigned. Actions: create task, update task. Explain how Zapier works with TaskVault."
   },
   {
     "id": "ticket_058",
@@ -834,7 +834,7 @@
     "subject": "Account Security - Enable 2FA",
     "category": "general",
     "priority": "low",
-    "message": "I'd like to enable two-factor authentication on my account for added security. I looked in Settings > Security but I don't see a 2FA option. Does FlowSync support 2FA? If not, when is it expected to be available?\n\nAlso, is there a way to see active sessions and log out of all devices?",
+    "message": "I'd like to enable two-factor authentication on my account for added security. I looked in Settings > Security but I don't see a 2FA option. Does TaskVault support 2FA? If not, when is it expected to be available?\n\nAlso, is there a way to see active sessions and log out of all devices?",
     "expected_action": "resolve",
     "escalation_reason": null,
     "notes": "2FA is available on Pro and Enterprise. Check Settings > Profile > Security > Two-Factor Authentication. Active sessions: Settings > Profile > Security > Active Sessions > Log Out All."

@@ -1,10 +1,10 @@
-# FlowSync — Brand Voice Guide
+# TaskVault — Brand Voice Guide
 
 ---
 
 ## 1. Overall Tone
 
-FlowSync's support voice is: **Friendly, Professional, Efficient.**
+TaskVault's support voice is: **Friendly, Professional, Efficient.**
 
 We sound like a smart, helpful coworker — not a robot, not a corporate hotline, and not an overly casual friend. We're warm without being fluffy, knowledgeable without being condescending, and fast without being dismissive.
 
@@ -39,7 +39,7 @@ Hi [Name],
 [Next steps or follow-up — 1-2 sentences]
 
 Best regards,
-FlowSync Support
+TaskVault Support
 ```
 
 ### WhatsApp
@@ -155,12 +155,12 @@ FlowSync Support
 
 **Opening:**
 - "Hi [Name], thanks for reaching out!"
-- "Hi [Name], thanks for contacting FlowSync support."
+- "Hi [Name], thanks for contacting TaskVault support."
 - "Hello [Name], I'm happy to help with this."
 
 **Closing:**
-- "If you have any other questions, don't hesitate to reach out. Best regards, FlowSync Support"
-- "Hope that clears things up! Let us know if you need anything else. Best, FlowSync Support"
+- "If you have any other questions, don't hesitate to reach out. Best regards, TaskVault Support"
+- "Hope that clears things up! Let us know if you need anything else. Best, TaskVault Support"
 
 ### WhatsApp
 
@@ -181,8 +181,8 @@ FlowSync Support
 - "Hi [Name], I received your message and I'm happy to help."
 
 **Closing:**
-- "I hope this resolves your issue. If not, just reply to this email and I'll follow up. Best regards, FlowSync Support"
-- "Let me know if you have any follow-up questions. We're here to help! Best, FlowSync Support"
+- "I hope this resolves your issue. If not, just reply to this email and I'll follow up. Best regards, TaskVault Support"
+- "Let me know if you have any follow-up questions. We're here to help! Best, TaskVault Support"
 
 ---
 
@@ -194,12 +194,12 @@ FlowSync Support
 "The export feature is in Settings. Please check the documentation for more details."
 
 **Email — Good:**
-"Hi Sarah, great question! You can export your data by going to **Settings > Workspace > Data Export**. From there, choose what you'd like to export (tasks, projects, etc.) and your preferred format (CSV or JSON). Once you click **Generate Export**, you'll receive a download link via email within a few minutes. Let me know if you need help with anything else! Best regards, FlowSync Support"
+"Hi Sarah, great question! You can export your data by going to **Settings > Workspace > Data Export**. From there, choose what you'd like to export (tasks, projects, etc.) and your preferred format (CSV or JSON). Once you click **Generate Export**, you'll receive a download link via email within a few minutes. Let me know if you need help with anything else! Best regards, TaskVault Support"
 
 ### Scenario 2: Customer's integration isn't working
 
 **WhatsApp — Bad:**
-"I apologize for the inconvenience. Please navigate to Settings, then Integrations, then Slack. Check if the connection status shows Connected. If it shows Disconnected, please click the Reconnect button and authorize the application again through the OAuth popup. Also make sure the FlowSync app hasn't been removed from your Slack workspace."
+"I apologize for the inconvenience. Please navigate to Settings, then Integrations, then Slack. Check if the connection status shows Connected. If it shows Disconnected, please click the Reconnect button and authorize the application again through the OAuth popup. Also make sure the TaskVault app hasn't been removed from your Slack workspace."
 
 **WhatsApp — Good:**
 "Oh no! Let's fix that quick. Can you go to Settings > Integrations > Slack and check if it says Connected or Disconnected?"
@@ -214,7 +214,7 @@ FlowSync Support
 "Unfortunately, as per our cancellation policy, charges incurred before the cancellation date are non-refundable. We apologize for any inconvenience."
 
 **Web Form — Good:**
-"Hi Alex, I understand how confusing unexpected charges can be. When you cancelled, the current billing cycle was already active, so that charge covers the period you had access. Going forward, you won't be charged again. If you'd like, I can look into whether you're eligible for a refund under our 14-day guarantee. Could you let me know when you originally signed up? Best regards, FlowSync Support"
+"Hi Alex, I understand how confusing unexpected charges can be. When you cancelled, the current billing cycle was already active, so that charge covers the period you had access. Going forward, you won't be charged again. If you'd like, I can look into whether you're eligible for a refund under our 14-day guarantee. Could you let me know when you originally signed up? Best regards, TaskVault Support"
 
 ---
 

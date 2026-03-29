@@ -1,4 +1,4 @@
-# Discovery Log — FlowSync Customer Success Digital FTE
+# Discovery Log — TaskVault Customer Success Digital FTE
 
 **Date:** 2026-03-12
 **Phase:** Exploration & Context Analysis
@@ -155,13 +155,13 @@ These are open questions discovered during analysis that need answers before bui
 
 ### Product & Data Questions
 
-1. **Does FlowSync actually support bulk task selection in the web UI?** Ticket_059 references multi-select, but this isn't confirmed in the product docs. Need to verify.
+1. **Does TaskVault actually support bulk task selection in the web UI?** Ticket_059 references multi-select, but this isn't confirmed in the product docs. Need to verify.
 
 2. **Is 2FA actually available?** Ticket_060 asks about it. The product docs mention SSO (Enterprise) but don't explicitly mention 2FA for Pro users. Need clarification.
 
 3. **Is dark mode available on web?** Ticket_025 asks. Docs mention mobile dark mode only. Need to confirm web status.
 
-4. **What languages does FlowSync support?** Ticket_017 asks about German. Docs don't mention language/i18n support at all.
+4. **What languages does TaskVault support?** Ticket_017 asks about German. Docs don't mention language/i18n support at all.
 
 ### Agent Behavior Questions
 
@@ -175,7 +175,7 @@ These are open questions discovered during analysis that need answers before bui
 
 9. **Can the agent access customer plan data?** To answer billing questions accurately, the agent needs to know the customer's plan. Is a CRM lookup available?
 
-10. **What is the agent's operating name/identity?** Should it sign emails as "FlowSync Support" or have a name like "Alex from FlowSync Support"?
+10. **What is the agent's operating name/identity?** Should it sign emails as "TaskVault Support" or have a name like "Alex from TaskVault Support"?
 
 ### Technical Questions
 

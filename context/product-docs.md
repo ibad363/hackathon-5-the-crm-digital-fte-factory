@@ -1,4 +1,4 @@
-# FlowSync — Product Documentation
+# TaskVault — Product Documentation
 
 ---
 
@@ -21,7 +21,7 @@
 
 ### 1.1 Creating Your Account
 
-1. Go to [https://app.flowsync.io/signup](https://app.flowsync.io/signup).
+1. Go to [https://app.taskvault.io/signup](https://app.taskvault.io/signup).
 2. Enter your work email address and choose a password (min 8 characters, must include one number and one special character).
 3. Verify your email by clicking the link sent to your inbox (check spam if not received within 2 minutes).
 4. Choose your workspace name (this is your team's shared space — e.g., "Acme Engineering").
@@ -50,7 +50,7 @@ The onboarding wizard walks you through:
 
 ### 2.1 Tasks
 
-Tasks are the fundamental unit of work in FlowSync.
+Tasks are the fundamental unit of work in TaskVault.
 
 **Task Fields:**
 | Field | Description | Required |
@@ -113,7 +113,7 @@ Projects are containers for related tasks.
 
 ### 2.4 Integrations
 
-FlowSync supports native integrations with:
+TaskVault supports native integrations with:
 
 | Integration | What It Does | Plan Required |
 |---|---|---|
@@ -121,8 +121,8 @@ FlowSync supports native integrations with:
 | **GitHub** | Link commits/PRs to tasks; auto-move tasks when PRs merge | Pro+ |
 | **GitLab** | Same as GitHub integration | Pro+ |
 | **Google Drive** | Attach Drive files to tasks; preview in-app | Free+ |
-| **Jira** | Two-way sync of issues between Jira and FlowSync | Enterprise |
-| **Zapier** | Connect FlowSync to 5,000+ apps via Zapier triggers/actions | Pro+ |
+| **Jira** | Two-way sync of issues between Jira and TaskVault | Enterprise |
+| **Zapier** | Connect TaskVault to 5,000+ apps via Zapier triggers/actions | Pro+ |
 | **Webhooks** | Send HTTP POST payloads on task events to any URL | Pro+ |
 
 ### 2.5 Notifications
@@ -184,12 +184,12 @@ FlowSync supports native integrations with:
 
 1. Go to **Settings > Integrations > Slack**.
 2. Click **Connect to Slack**.
-3. Authorize FlowSync in the Slack OAuth popup.
+3. Authorize TaskVault in the Slack OAuth popup.
 4. Choose a default Slack channel for notifications.
 5. Configure per-project: select which events post to which channels.
 6. Click **Save**.
 
-**Troubleshooting:** If the OAuth popup doesn't appear, disable your browser's popup blocker for flowsync.io.
+**Troubleshooting:** If the OAuth popup doesn't appear, disable your browser's popup blocker for taskvault.io.
 
 ### 3.5 How to Use the Timeline (Gantt) View
 
@@ -242,7 +242,7 @@ FlowSync supports native integrations with:
 
 ### 3.10 How to Use the Mobile App
 
-1. Download "FlowSync" from the App Store (iOS) or Google Play (Android).
+1. Download "TaskVault" from the App Store (iOS) or Google Play (Android).
 2. Log in with your existing credentials.
 3. You'll see your workspace, projects, and tasks.
 4. Tap any task to view/edit details, add comments, or log time.
@@ -256,7 +256,7 @@ FlowSync supports native integrations with:
 
 ### 4.1 Authentication
 
-FlowSync uses **API keys** for authentication (Pro and Enterprise plans).
+TaskVault uses **API keys** for authentication (Pro and Enterprise plans).
 
 - Generate a key in **Settings > API > Generate Key**.
 - Include the key in the `Authorization` header: `Authorization: Bearer fs_live_xxxxxxxxxxxx`.
@@ -266,7 +266,7 @@ FlowSync uses **API keys** for authentication (Pro and Enterprise plans).
 ### 4.2 Base URL
 
 ```
-https://api.flowsync.io/v1
+https://api.taskvault.io/v1
 ```
 
 ### 4.3 Rate Limits
@@ -393,7 +393,7 @@ Use query params `?page=2&per_page=50`.
 
 **Solutions:**
 - Check **Settings > Notifications** — ensure email notifications are enabled.
-- Check your spam/junk folder. Add `notifications@flowsync.io` to your safe senders.
+- Check your spam/junk folder. Add `notifications@taskvault.io` to your safe senders.
 - If using Gmail, check the Promotions or Updates tab.
 - Verify your email address in **Settings > Profile > Email** (look for a "Verified" badge).
 
@@ -419,7 +419,7 @@ Use query params `?page=2&per_page=50`.
 - Go to **Settings > Integrations > Slack** and check the connection status.
 - If it says "Disconnected," click **Reconnect**.
 - Verify the correct Slack channel is selected for the project.
-- Ensure the FlowSync Slack app hasn't been removed from your Slack workspace.
+- Ensure the TaskVault Slack app hasn't been removed from your Slack workspace.
 - Check Slack channel permissions — the bot must be invited to private channels.
 
 ### Issue 6: "I accidentally deleted a task"
@@ -450,7 +450,7 @@ Use query params `?page=2&per_page=50`.
 **Solutions:**
 - Cancellations take effect at the end of the billing cycle. The charge may be for the current (already active) period.
 - Check your cancellation confirmation email for the exact end date.
-- If you believe you were charged in error, email **billing@flowsync.io** with your invoice number.
+- If you believe you were charged in error, email **billing@taskvault.io** with your invoice number.
 
 ### Issue 10: "The Gantt chart dependencies are broken"
 
@@ -485,15 +485,15 @@ Use query params `?page=2&per_page=50`.
 ### Issue 14: "My workspace is running slowly"
 
 **Solutions:**
-- Close unused browser tabs (FlowSync is resource-intensive with many open projects).
+- Close unused browser tabs (TaskVault is resource-intensive with many open projects).
 - Clear browser cache and disable unnecessary extensions.
 - If a specific project is slow, it may have too many tasks (>5,000). Archive completed tasks.
-- Check [status.flowsync.io](https://status.flowsync.io) for any ongoing platform incidents.
+- Check [status.taskvault.io](https://status.taskvault.io) for any ongoing platform incidents.
 
 ### Issue 15: "I need to recover data from a deleted workspace"
 
 **Solutions:**
-- Deleted workspaces are recoverable within **30 days** by contacting support@flowsync.io.
+- Deleted workspaces are recoverable within **30 days** by contacting support@taskvault.io.
 - After 30 days, data is permanently deleted and cannot be recovered.
 - Enterprise customers with backup agreements may have extended recovery windows (check your contract).
 - To prevent accidental deletion, enable **Workspace Deletion Protection** in Settings > Workspace > Security (Enterprise only).
@@ -512,23 +512,23 @@ Use query params `?page=2&per_page=50`.
 
 **Features:**
 - Receive notifications in Slack when tasks are created, updated, completed, or commented on.
-- Create tasks directly from Slack using the `/flowsync create` command.
-- Link a Slack message to a task by clicking **More actions > Create FlowSync Task**.
+- Create tasks directly from Slack using the `/taskvault create` command.
+- Link a Slack message to a task by clicking **More actions > Create TaskVault Task**.
 
 **Commands:**
 | Command | Description |
 |---|---|
-| `/flowsync create [title]` | Create a new task in the default project |
-| `/flowsync status` | Show your assigned tasks and their statuses |
-| `/flowsync help` | List available commands |
+| `/taskvault create [title]` | Create a new task in the default project |
+| `/taskvault status` | Show your assigned tasks and their statuses |
+| `/taskvault help` | List available commands |
 
 ### 7.2 GitHub Integration
 
 **Setup:**
 1. Navigate to **Settings > Integrations > GitHub**.
-2. Click **Connect to GitHub** and authorize the FlowSync GitHub App.
+2. Click **Connect to GitHub** and authorize the TaskVault GitHub App.
 3. Select which repositories to link.
-4. Map repositories to FlowSync projects.
+4. Map repositories to TaskVault projects.
 
 **Features:**
 - Mention a task ID in a commit message (e.g., `fix: resolve bug FS-1234`) to auto-link.
@@ -540,12 +540,12 @@ Use query params `?page=2&per_page=50`.
 **Setup:**
 1. Navigate to **Settings > Integrations > Google Drive**.
 2. Click **Connect** and sign in with your Google account.
-3. Grant FlowSync permission to access your Drive files.
+3. Grant TaskVault permission to access your Drive files.
 
 **Features:**
 - Attach Google Drive files (Docs, Sheets, Slides) to any task.
-- Preview Drive files inline without leaving FlowSync.
-- Changes to the Drive file are reflected in real-time within FlowSync.
+- Preview Drive files inline without leaving TaskVault.
+- Changes to the Drive file are reflected in real-time within TaskVault.
 
 ---
 
@@ -553,8 +553,8 @@ Use query params `?page=2&per_page=50`.
 
 ### 8.1 Download
 
-- **iOS:** [App Store](https://apps.apple.com/app/flowsync)
-- **Android:** [Google Play](https://play.google.com/store/apps/details?id=io.flowsync)
+- **iOS:** [App Store](https://apps.apple.com/app/taskvault)
+- **Android:** [Google Play](https://play.google.com/store/apps/details?id=io.taskvault)
 
 ### 8.2 Features
 
@@ -602,7 +602,7 @@ Owner > Admin > Member > Guest
 
 ### 9.3 SSO / SAML (Enterprise)
 
-- FlowSync supports SAML 2.0 SSO with providers: Okta, Azure AD, OneLogin, Google Workspace.
+- TaskVault supports SAML 2.0 SSO with providers: Okta, Azure AD, OneLogin, Google Workspace.
 - Configure in **Settings > Security > SSO**.
 - When SSO is enforced, password login is disabled for all non-Owner accounts.
 - SCIM provisioning is supported for automatic user creation/deprovisioning.
@@ -645,7 +645,7 @@ Owner > Admin > Member > Guest
 
 ### 10.3 GDPR & Data Requests
 
-- FlowSync is GDPR compliant.
-- To request a copy of your data: email **privacy@flowsync.io**.
-- To request data deletion: email **privacy@flowsync.io** with subject "Data Deletion Request."
+- TaskVault is GDPR compliant.
+- To request a copy of your data: email **privacy@taskvault.io**.
+- To request data deletion: email **privacy@taskvault.io** with subject "Data Deletion Request."
 - Requests are processed within 30 days.
